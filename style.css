@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .more_inf {
+.header-link {
   font-family: fantasy, cursive;
 }
 
@@ -28,7 +28,7 @@
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -142,13 +142,13 @@
   width: 226px;
 }
 
-.button.delete .img-delete {
+.button-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button.delete .img-delete:hover {
+.button-img:hover {
   transform: rotateZ(0);
 }
 
